@@ -1,0 +1,7 @@
+size=50,40
+hitbox=24,13
+offset=13,27
+
+#0#idle
+frame_count=2
+delay=200

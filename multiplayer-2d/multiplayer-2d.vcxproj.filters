@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Client">
+      <UniqueIdentifier>{d0ed81a5-8dd7-49c3-a0e2-9e20fbce5698}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{70a46abb-c17b-448d-89d1-98378159d961}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MSEngine">
+      <UniqueIdentifier>{500c0646-45ae-4d5e-8a24-457e519b9932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MSEngine\Animator">
+      <UniqueIdentifier>{6ea350f8-06b3-4392-b26a-f1249916acbe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="abilities.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="action.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="animation.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="background.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="functions.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="block.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="hitbox.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="movingobject.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="livingobject.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="slime.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="stats.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="msvector.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="options.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="world.cpp">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="mspacket.cpp">
+      <Filter>Source Files\Server</Filter>
+    </ClCompile>
+    <ClCompile Include="client.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+    <ClCompile Include="controls.cpp">
+      <Filter>Source Files\Client</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="abilities.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="animation.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="background.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="functions.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="block.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="hitbox.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="livingobject.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="movingobject.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="slime.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="stats.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Source Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="msvector.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="options.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="slash.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="world.h">
+      <Filter>Source Files\MSEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="mspacket.h">
+      <Filter>Source Files\Server</Filter>
+    </ClInclude>
+    <ClInclude Include="client.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+    <ClInclude Include="controls.h">
+      <Filter>Source Files\Client</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

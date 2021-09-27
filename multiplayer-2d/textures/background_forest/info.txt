@@ -1,0 +1,11 @@
+layer0=b=0.95
+layer1=b=0.95
+layer2=b=0.8
+layer3=b=0.7
+layer4=b=0.7
+layer5=b=0.5
+layer6=b=0.45
+layer7=b=0
+layer8=b=0
+layer9=b=0
+layer10=f=-0.3
